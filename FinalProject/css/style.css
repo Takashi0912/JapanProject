@@ -1,0 +1,159 @@
+/* General body styles */
+body {
+    font-family: times new roman, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header{
+    background-color: rgba(255,255,255, 0.1);
+    overflow:hidden;
+    
+}
+header h1{
+    float: left;
+    margin-left: 50px;
+    color: black;
+    font-size: 20px;
+    
+}
+header nav{
+    float: right;
+}
+header a{
+	font-size: 16px;
+	color: black;
+    text-decoration:none;
+    display:inline-block;
+        margin-top: 15px;
+        margin-right:30px;
+	margin-bottom: 0px;
+	padding: 10px 15px;
+    transition: color 0.3s;
+	border-radius: 5px;
+}
+
+header a:hover{
+    background-color:darkgray;
+}
+
+
+h2 {
+    color: white;
+    text-align: center;
+  
+
+}
+
+
+a {
+    
+    text-decoration: none;
+	font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+a:hover {
+    background-color: #1a73e8;
+    color: white;
+}
+
+/* Section styles */
+.section {
+    margin-bottom: 150px;
+    text-align: center;
+    color: white;
+    position: relative;
+    height: 700px; /* Increased height for background images */
+    background-size: cover; /* Ensures the background image covers the section */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+    background-color: rgba(192, 192, 192, 0.8); /* Fallback color */
+	
+ 
+}
+
+/* Specific section backgrounds */
+.section.beginner {
+    background-image: url("../images/BackGrounds/fuji.jpeg");
+
+}
+
+.section.advanced {
+    background-image: url("../images/BackGrounds/japanAdvance.jpg");
+}
+
+.section.food {
+    background-image: url("../images/BackGrounds/foodJapan.jpeg");
+}
+
+/* Text container styles */
+.text-container {
+   display: flex;
+    flex-direction: column; /* Aligns items vertically */
+    justify-content: center; /* Centers items vertically */
+    align-items: center; /* Centers items horizontally */
+    max-width: 50%; /* Set the maximum width to 40% of the section */
+    margin: 0 auto; /* Center the container horizontally */
+    height: 100%; /* Make the container fill the height of the section */
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly transparent background */
+    padding: 20px; /* Optional: Adjust padding as needed */
+    box-sizing: border-box; /* Ensures padding and border are included in width/height calculations */
+    text-align: center; /* Centers text horizontally */
+
+}
+
+/* Section headings and paragraphs */
+.section h2 {
+    font-size: 3.0em;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.3em;
+    margin: 40px;
+	line-height: 30px;
+	text-align: justify;
+}
+
+/* Section link styles */
+.section a {
+    background-color: rgba(0, 0, 0, 0.5); /* Darker background for better contrast */
+    color: white;
+    border: none;
+}
+
+.section a:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+form{
+	width: 50%;
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    box-sizing: border-box; /* Ensures padding and border are included in width/height calculations */
+    text-align: left; /* Align text to the left */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+.large-textarea {
+    width: 100%; /* Full width */
+    height: 100px; /* Increased height */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 10px; /* Add padding */
+    text-align: left; /* Align placeholder text to the left */
+    vertical-align: top;  
+}
+ input[type="text"],
+        textarea {
+            width: 300px;  
+        }
+
+
+footer {
+    text-align: center;
+	
+    }

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Confirmation</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script type ="text/javascript"  src='userAccount.js'></script>
+
+</head>
+<body onload ="GetCookies()">
+        
+<form>
+    <fieldset>
+    <legend style="color: #fff; background:green; padding:10px"> <h1>Confirmation</h1></legend>
+       <label for="email">E-mail :  </label>
+        <label id="email"> </label>
+        <br>
+        <br>
+        <label for="firstName">First Name:  </label>
+        <label id="firstName"></label>
+        <br>
+        <br>
+        <label for="lastName">Last Name:  </label>
+        <label id="lastName"></label>
+        <br>
+        <br>
+        <label for="birthDay">Birth Day:  </label>
+        <label id="birthDay"> </label>
+        
+        <br>
+        <br>
+        <label for="query">Question </label> 
+        <textarea  id="query" class="large-textarea" required></textarea>
+        <br>
+        <br>
+        <button type="button" onclick="window.close()">Close Page</button>
+		 <button type="button" onclick="send()">Send</button>
+       
+        
+    </fieldset>
+
+</form>
+
+</body>
+
+</html>

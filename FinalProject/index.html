@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+     <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+       <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Discover Japan</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script type ="text/javascript" src='userAccount.js'></script>
+    
+</head>
+<body>
+   <header>
+		<h1>Discover Japan</h1>
+        <nav>
+            <div class="section-links">
+				<a href="index.html">Home</a>
+                <a href="beginner.html">Beginner</a>
+                <a href="advance.html">Advanced</a>
+                <a href="food.html">Food</a>
+            </div>
+        </nav>
+        
+    </header>
+   <main>
+    <section class="section">
+        <div class="text-container">
+            <h2>Discover the Enchanting Essence of Japan:   A Journey Beyond Imagination</h2>
+            <p>Prepare to be captivated by the allure of Japan, a land steeped in ancient traditions, breathtaking scenery, and a culture that seamlessly blends the past with the present. Embark on an extraordinary adventure that will awaken your senses and leave you yearning for more.</p>
+        </div>
+    </section>
+    <section class="section beginner">
+        <div class="text-container">
+            <h2>Beginner</h2>
+            <p>Welcome to Japan! If it's your first time visiting, here are some must-see attractions that will give you a great introduction to this incredible country:</p>
+            <a href="beginner.html">Let's go!</a>
+        </div>
+    </section>
+    <section class="section advanced">
+        <div class="text-container">
+            <h2>Advanced</h2>
+            <p>By seeking out these lesser-known destinations and experiences, you'll gain a deeper appreciation for Japan’s rich and varied culture. Enjoy your adventure!</p>
+            <a href="advance.html">Let's go!</a>
+        </div>
+    </section>
+    <section class="section food">
+        <div class="text-container">
+            <h2>Food</h2>
+            <p>For food enthusiasts looking to taste the true essence of Japanese cuisine, here are some unfamiliar but incredibly delicious dishes that are worth traveling to Japan for:</p>
+            <a href="food.html">Let's go!</a>
+        </div>
+    </section>
+
+<form action="confirmation.html" method="get" target="_blank" onsubmit="SetCookies()">
+    <fieldset>
+    <legend style="color: #fff; background:green; padding:10px"> <h2>Contact</h2></legend>
+		<p>If you want to know more, Contact us!</p>
+        <label for="email">E-mail </label>
+        <input type="text" placeholder="Hasega@gmail" name="email"  id ="email" required>
+		<br>
+        <br>
+		
+        <label for="firstName">First Name </label>
+        <input type="text" placeholder="Takashi" name="firstName"  id ="firstName" required>
+        <br>
+        <br>
+        <label for="lastName">Last Name </label>
+        <input type="text" placeholder="Hasegawa" name="lastName"  id ="lastName" required>
+        <br>
+        <br>
+        <label for="birthDay">BirthDay(8 digit) </label>
+        <input type="text" placeholder="19760912" name="birthDay" id ="birthDay" required>
+        <br>
+        <br>
+        <label for="query">Question </label> 
+        <textarea placeholder="I would like to know ..." name="query" id="query" class="large-textarea" required></textarea>
+        <br>
+        <br>
+
+        <button type="button" onclick="ClearAll()">Clear All</button>
+        <input type = "submit"/> 
+		
+        
+    </fieldset>
+
+</form>
+
+    
+</main>
+
+ <footer>
+        <p>Copyright &copy; Danila and Takashi 2024</p>
+ </footer>
+</body>
+</html>
